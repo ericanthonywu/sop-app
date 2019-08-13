@@ -1,1 +1,97 @@
-// Your custom styles
+.prelative.container{
+    padding: 0 100px;
+    max-width: 100%;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+section.header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,43,242,1) 45%, rgba(0,212,255,1) 100%);
+    box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+    -webkit-box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+    -moz-box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+    .lang{
+        padding-top: 10px;
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                color: #ffffff;
+                display: inline-block;
+            }
+        }
+    }
+    .title{
+        h3{
+            color: #ffffff;
+            font-size: 30px;
+        }
+    }
+    .logo{
+        padding-top: 10px;
+        img{
+            float: right;
+        }
+    }
+}
+
+.activities,.support{
+    .boxed-sec1{
+        width: 100%;
+        background: rgb(224,170,62);
+        background: radial-gradient(circle, rgba(224,170,62,1) 0%, rgba(255,243,31,1) 50%, rgba(224,170,62,1) 100%);
+        box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+        -webkit-box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+        -moz-box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+        p{
+            font-size: 30px;
+            color: #ffffff;
+        }
+        a.btn{
+            background: #2d1bff;
+            font-size: 15px;
+            padding: 15px;
+            width: 200px;
+            color: #ffffff;
+            opacity: 0.9;
+        }
+        a.btn:hover{
+            //font-weight: 700;
+            background: #2d1bff;
+            opacity: 1;
+        }
+
+    }
+}
+
+
+.operational{
+    .boxed-sec1{
+        width: 100%;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,43,242,1) 45%, rgba(0,212,255,1) 100%);
+        box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+        -webkit-box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+        -moz-box-shadow: 13px 18px 50px -17px rgba(0,0,0,1);
+        p{
+            font-size: 30px;
+            color: #ffffff;
+        }
+        a.btn{
+            background: #e0aa3e;
+            padding: 20px;
+            font-size: 15px;
+            width: 200px;
+            color: #ffffff;
+            opacity: 0.9;
+        }
+        a.btn:hover{
+            //font-weight: 700;
+            background: #e0aa3e;
+            opacity: 1;
+        }
+    }
+}
