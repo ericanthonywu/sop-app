@@ -3,13 +3,14 @@
  * includes React and other helpers. It's a great starting point while
  * building robust, powerful web applications using React + Laravel.
  */
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import "./assets/scss/mdb.scss"
-import "./assets/scss/_custom-styles.scss"
+require ('@fortawesome/fontawesome-free/css/all.min.css');
+require ('bootstrap-css-only/css/bootstrap.min.css');
+require ('mdbreact/dist/css/mdb.css');
+require ("./assets/scss/mdb.scss")
+require ("./assets/scss/_custom-styles.scss")
 
-require('./bootstrap');
+
+// require('./bootstrap');
 
 /**
  * Next, we will create a fresh React component instance and attach it to
